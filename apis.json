@@ -1,0 +1,109 @@
+{
+	"name": "Streadata.io API Gallery - Webinars",
+	"description": "This is a repository of webinars APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/webinars.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://webinars.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "FuzeBox",
+			"x-api-slug": "fuzebox",
+			"description": "Fuze is the Leader in Enterprise Global Voice, Video, Messaging, and Collaboration",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/598-fuzebox.jpg",
+			"humanURL": "https://www.fuze.com/",
+			"baseURL": "https:///",
+			"tags": "Webinars",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/webinars/master/_listings/fuzebox/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GoToMeeting",
+			"x-api-slug": "gotomeeting",
+			"description": "Citrix enables business mobility through the secure delivery of apps and data to any device on any network.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg",
+			"humanURL": "https://citrixonline.com",
+			"baseURL": "https://api.citrixonline.com//identity/v1",
+			"tags": "Webinars",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/webinars/master/_listings/gotomeeting/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Sysomos",
+			"x-api-slug": "sysomos",
+			"description": "A unified, insights-driven social platform empowering marketers to search, discover, listen, publish, engage, and analyze across earned, owned, and paid media.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1482-sysomos.jpg",
+			"humanURL": "https://sysomos.com/",
+			"baseURL": "https:///",
+			"tags": "Webinars",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/webinars/master/_listings/sysomos/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "RingCentral",
+			"x-api-slug": "ringcentral",
+			"description": "RingCentral, Inc. (NYSE: RNG) is a global provider of cloud enterprise unified communications and collaboration solutions. More flexible and cost-effective than legacy on-premise systems, RingCentral empowers today&rsquo;s mobile and distributed workforces to be connected anywhere and on any device through voice, video, team messaging, collaboration, SMS, conferencing, online meetings, contact center, and fax. RingCentral provides an open platform that integrates with today&rsquo;s leading business apps while giving customers the flexibility to customize their own workflows.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg",
+			"humanURL": "http://www.ringcentral.com",
+			"baseURL": "https://platform.ringcentral.com//",
+			"tags": "Webinars",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/webinars/master/_listings/ringcentral/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "LogMeIn",
+			"x-api-slug": "logmein",
+			"description": "LogMeIn, Inc. is a provider of software as a service and cloud-based remote connectivity services for collaboration, IT management and customer engagement, founded in 2003 and based in Boston, Massachusetts.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg",
+			"humanURL": "http://www.LogMeInInc.com",
+			"baseURL": "https://api.getgo.com//G2W/rest/organizers",
+			"tags": "Webinars",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/webinars/master/_listings/logmein/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Webinars",
+	"include": [
+		{
+			"name": "FuzeBox",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/webinars/master/_listings/fuzebox/apis.yaml"
+		},
+		{
+			"name": "GoToMeeting",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/webinars/master/_listings/gotomeeting/apis.yaml"
+		},
+		{
+			"name": "Sysomos",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/webinars/master/_listings/sysomos/apis.yaml"
+		},
+		{
+			"name": "RingCentral",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/webinars/master/_listings/ringcentral/apis.yaml"
+		},
+		{
+			"name": "LogMeIn",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/webinars/master/_listings/logmein/apis.yaml"
+		}
+	]
+}
